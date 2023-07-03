@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import Script from "next/script";
+import Link from "next/link";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -14,10 +16,26 @@ export default function Home() {
 
       <div className="mainnav">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Blog</li>
-          <li>Contact</li>
+          <Link href="/" legacyBehavior>
+            <a>
+              <li>Home</li>
+            </a>
+          </Link>
+          <Link href="/about" legacyBehavior>
+            <a>
+              <li>About</li>
+            </a>
+          </Link>
+          <Link href="/blog" legacyBehavior>
+            <a>
+              <li>Blogs</li>
+            </a>
+          </Link>
+          <Link href="/contact" legacyBehavior>
+            <a>
+              <li>Contact</li>
+            </a>
+          </Link>
         </ul>
       </div>
 
