@@ -1,0 +1,20 @@
+.mainnav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.mainnav li {
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
+}
