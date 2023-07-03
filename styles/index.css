@@ -9,9 +9,10 @@
   width: 100vw;
   height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   flex-wrap: wrap;
+  padding-top: 3rem;
 }
 .mainnav li {
   margin: 0 24px;
