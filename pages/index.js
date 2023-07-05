@@ -14,49 +14,9 @@ export default function Home() {
         <meta name="keyword" content="nextjs, parteekblog, nextjsblog" />
       </Head>
 
-      <div className="mainnav">
-        <ul>
-          <Link href="/" legacyBehavior>
-            <a>
-              <li>Home</li>
-            </a>
-          </Link>
-          <Link href="/about" legacyBehavior>
-            <a>
-              <li>About</li>
-            </a>
-          </Link>
-          <Link href="/blog" legacyBehavior>
-            <a>
-              <li>Blogs</li>
-            </a>
-          </Link>
-          <Link href="/contact" legacyBehavior>
-            <a>
-              <li>Contact</li>
-            </a>
-          </Link>
-        </ul>
-      </div>
-
       <div className="container">
         <div className="title-blog">
           <h1>Hello Everyone</h1>
-        </div>
-
-        <div className="blogs">
-          <div className="blogItem">
-            <h3>How to learn javascript for beginners?</h3>
-            <p>Javascript is a language used to design logic for web </p>
-          </div>
-          <div className="blogItem">
-            <h3>How to learn javascript for beginners?</h3>
-            <p>Javascript is a language used to design logic for web </p>
-          </div>
-          <div className="blogItem">
-            <h3>How to learn javascript for beginners?</h3>
-            <p>Javascript is a language used to design logic for web </p>
-          </div>
         </div>
       </div>
     </>
